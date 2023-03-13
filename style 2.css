@@ -10,8 +10,8 @@ body {
 }
 .container {
     font-family: roboto;
-    height: 350px;
-    width: 400px;
+    height: 400px;
+    width: 450px;
     background-color: #FEFFFE;
     margin: 120px auto;
     text-align: center;
@@ -31,10 +31,7 @@ form input {
     width: 100%;
     outline: 0;
 }
-input ::placeholder {
-    color: #D4D2D5;
-}
-#sub {
+#suba {
     background-color: #47A050;
 }
 .mess {
@@ -48,15 +45,5 @@ input ::placeholder {
     
 }
 .mess a:hover {
-    color: #47A050;
-}
-.forgot {
-    display: block;
-    font-family: Source Sans Pro;
-    color: #B0C6AC;
-    text-decoration: none;
-    margin-top: 15px;
-}
-.forgot:hover {
     color: #47A050;
 }
