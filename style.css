@@ -28,6 +28,16 @@ body {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.container3 {
+    font-family: roboto;
+    height: 350px;
+    width: 400px;
+    background-color: #FEFFFE;
+    margin: 120px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 form {
     padding: 50px 40px;
 }
@@ -46,6 +56,10 @@ input ::placeholder {
 }
 #sub {
     background-color: #47A050;
+    border-radius: 30px;
+}
+#sub:hover {
+    background-color: #31A853;
 }
 .mess {
     font-family: Source Sans Pro;
@@ -68,5 +82,26 @@ input ::placeholder {
     margin-top: 15px;
 }
 .forgot:hover {
+    color: #47A050;
+}
+.reset-pw {
+    font-family: Source Sans Pro;
+    color: #47A050;
+}
+.reset-pw2 {
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: Source Sans Pro;
+    color: #47A050;
+    padding-bottom: 15px;
+}
+.forgot2 {
+    display: block;
+    font-family: Source Sans Pro;
+    color: #B0C6AC;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.forgot2:hover {
     color: #47A050;
 }
